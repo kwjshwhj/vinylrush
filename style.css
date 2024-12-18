@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 1em 2em;
+}
+
+header .logo h1 {
+    color: #fff;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1.5em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section */
+#hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero .hero-content {
+    color: white;
+}
+
+#hero h2 {
+    font-size: 3em;
+}
+
+#hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Albums section */
+#albums {
+    padding: 2em;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.album-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.album {
+    background-color: white;
+    padding: 1em;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.album img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.album h3 {
+    font-size: 1.2em;
+}
+
+.album p {
+    color: #888;
+}
+
+.album button {
+    padding: 10px;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 1em 0;
+}
